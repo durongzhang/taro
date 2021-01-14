@@ -125,7 +125,8 @@ export function createRouter (
     eventCenter.trigger('__taroRouterChange', {
       toLocation: {
         path: location.pathname
-      }
+      },
+      action
     })
 
     if (pageConfig) {
